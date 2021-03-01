@@ -1,0 +1,91 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.resumeCard-container{
+  background-color: $bg-productItem;
+  border-radius: 15px;
+  height: 83px;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.resumeCard-header{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-left: 5px;
+  & p{
+    width: 200px;
+    padding-left: 10px;
+    font-family: $text-font;
+    font-size: 1.8rem;
+    background-color: #E1E1E1;
+    border-radius: 15px;
+  }
+  & .resumeCard-header_comboButton{
+    margin-left: 5px;
+    @include iconStyle('../../../assets/icons/addProduct-AddComboButton.png', 25px);
+  }
+  & .resumeCard-header_deleteButton{
+    margin-left: 5px;
+    @include iconStyle('../../../assets/icons/addProduct-DeleteButton.png', 25px);
+  }
+}
+
+.options-container{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 40px;
+}
+
+.options-quatityContainer{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: auto;
+  margin-left: 5px;
+  & .minusButton{
+    margin: auto 0;
+    @include iconStyle('../../../assets/icons/addProducts-MinusButton.png', 30px);
+  }
+  & p{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-family: $numbers;
+    text-align: center;
+  }
+  & .plusButton{
+    margin: auto 0;
+    @include iconStyle('../../../assets/icons/plusButton.svg', 30px);
+  }
+}
+.options-specificationsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  margin-left: 8px;
+  width: 150px;
+  height: 40px;
+  margin-top: 8px;
+  padding-top: 5px;
+  border-radius: 15px;
+  & .options-specifications_Special{
+    @include iconStyle('../../../assets/icons/addProduct-SpecialRequirementIcon.png', 30px);
+  }
+  & .options-specifications_Additions{
+    @include iconStyle('../../../assets/icons/addProduct-AdditionIcon.png', 30px);
+  }
+  & .options-specifications_Restrictions{
+    @include iconStyle('../../../assets/icons/addProduct-SubtractionIcon.png', 30px);
+  }
+  & .options-specifications_Comments{
+    @include iconStyle('../../../assets/icons/addProduct-CommentIcon.png', 30px);
+  }
+}

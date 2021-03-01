@@ -1,0 +1,27 @@
+@import '../utilities/variables';
+
+.sectionArea{
+  width: 87.5%;
+  height: auto;
+  min-width: $min-size-SectionContainer;
+  max-width: $max-size-SectionContainer;
+  & h2{
+    position: relative;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-family: $text-font;
+    text-align: left;
+  }
+  & .container{
+    height: auto;
+    margin-top: 10px;
+    padding: 20px 25px;
+    min-height: 133px;
+    border: 2px solid $SectionBorderColor;
+    border-radius: $SectionContainerRadius;
+    background-color: $SectionBackground;
+    font-family: $text-font4;
+    font-size: 1.4rem;    
+  }
+}
+

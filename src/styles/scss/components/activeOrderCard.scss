@@ -1,0 +1,78 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+.cardContainer{  
+  background-color: $bg-activeOrderCard;
+  width: 100%;
+  height: 90px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  & .orderHighlights-up{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 5px 5px;
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 3px;
+    & h3{
+      font-size: 1.4rem;
+      font-family: $text-font2;
+      text-align: center;
+    }
+    & h4{
+      font-size: 1.4rem;
+      font-family: $text-font3;
+      text-align: center;
+    }
+  }
+  & .orderHighlights-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 92%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 5px;  
+    & .details{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 35px;
+      width: 100px;
+      margin-top: 3px;
+      background-color: white;
+      border-radius: 10px;
+      & .viewDetails{
+        @include iconStyle('../../../assets/icons/activeOrders-viewDetails.png',40px);
+      }
+      & .editOrder{
+        @include iconStyle('../../../assets//icons/activeOrders-editOrder.png', 30px);
+      }
+    }
+    & .totalPrice{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 35px;
+      width: 85px;
+      margin-top: 3px;
+      font-family: $bold-numbers;
+      background-color: white;
+      border-radius: 10px;
+    }
+    & .payment{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 40px;
+      font-family: $ghostButtonFont;
+      font-size: 2rem;
+      background-color: #C2FB3C;
+      color: white;
+      border-radius: 100%;
+      text-decoration: none;
+    }
+  }
+}

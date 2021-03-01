@@ -1,0 +1,18 @@
+@import "../utilities/variables";
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  background: linear-gradient( #5A6567  , #053942);
+  & button{
+    width: 60px;
+    height: 60px;
+    margin: auto 0;
+    border-radius: 100%;
+    border: solid 2px $blue-button;
+  }
+}

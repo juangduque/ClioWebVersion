@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Ralewai-Regular";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Ralewai-medium";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: "Ralewai-semibold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Ralewai-bold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: "Almarai-ExtraBold";
+  src: url("../../../assets/fonts/Almarai/Almarai-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Almarai-Regular";
+  src: url("../../../assets/fonts/Almarai/Almarai-Regular.ttf");
+}
+@font-face {
+  font-family: "Almarai-Bold";
+  src: url("../../../assets/fonts/Almarai/Almarai-Bold.ttf");
+}
+.buttonHome {
+  display: flex;
+  flex-direction: row;
+  height: 95px;
+  width: 87.5%;
+  min-width: 280px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 7px;
+  background: linear-gradient(#021013, #053942);
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+}
+.buttonHome span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: solid 2px #45D2E8;
+  border-radius: 100%;
+  margin: auto 0;
+  margin-left: 13px;
+}
+.buttonHome h2 {
+  margin: auto 0;
+  margin-left: 15px;
+  font-size: 2rem;
+  color: white;
+  font-family: "Ralewai-bold";
+}

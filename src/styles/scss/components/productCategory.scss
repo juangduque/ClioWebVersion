@@ -1,0 +1,39 @@
+@import '../utilities/variables';
+
+.sectionCategoryContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryTitle{
+  display: flex;
+  flex-direction: row;
+  min-width: 280px;
+  margin-bottom: 5px;
+  width: auto;
+  height: auto;
+  & h2{
+    font-family: $text-font4;
+    font-size: 2.7rem;
+    margin-right: 15px;
+  }
+  & span{
+    background-image: url('../../../assets/icons/AddProductNavIcon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 20px;
+    line-height: 50px;
+    margin-top: 5px;
+  }
+}
+.productsContainer{
+  position: relative;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  gap: 10px 5px;
+  height: 100%;
+  width: 100%;
+  padding-left: inherit;
+}

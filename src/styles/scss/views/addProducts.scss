@@ -1,0 +1,19 @@
+@import "../utilities/variables";
+@import '../utilities/mixins';
+
+main{
+  @include mainStyle;
+}
+
+.AddProductsTitle{
+  @include title-style("../../../assets/icons/AddProductIcon.png", 2.7rem, 35px, 0px);
+}
+
+.productCategoriesContainer{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 0 auto;
+  min-width: 280px;
+  margin-top: 20px;
+}

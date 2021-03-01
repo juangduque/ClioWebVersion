@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Ralewai-Regular";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Ralewai-medium";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: "Ralewai-semibold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Ralewai-bold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: "Almarai-ExtraBold";
+  src: url("../../../assets/fonts/Almarai/Almarai-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Almarai-Regular";
+  src: url("../../../assets/fonts/Almarai/Almarai-Regular.ttf");
+}
+@font-face {
+  font-family: "Almarai-Bold";
+  src: url("../../../assets/fonts/Almarai/Almarai-Bold.ttf");
+}
+header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 320px;
+  height: 80px;
+  background-color: #1D9F69;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.logoContainer span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin: 0 20px;
+  border-radius: 100%;
+  background-color: white;
+}
+.logoContainer h2 {
+  margin-top: 8px;
+  font-family: "Ralewai-semibold";
+  font-size: 3rem;
+  color: black;
+}
+
+.lateralMenu {
+  margin-top: 25px;
+  margin-right: 20px;
+}

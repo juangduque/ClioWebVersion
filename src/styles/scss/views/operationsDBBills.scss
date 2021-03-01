@@ -1,0 +1,18 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+main{
+  @include mainStyle;
+}
+
+.operationsBillsTitle{
+  @include title-style('../../../assets/icons/DBBillsIcon.png', 4rem, 40px, 0px);
+}
+
+.infoButton{
+  @include iconStyle('../../../assets/icons/infoButton.png', 30px);
+}
+
+.operationsDBBills{
+  @include illustrationStyle("../../../assets/imgs/operationsDBBills.png");
+}

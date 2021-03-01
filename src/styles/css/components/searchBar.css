@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Ralewai-Regular";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Ralewai-medium";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: "Ralewai-semibold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Ralewai-bold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: "Almarai-ExtraBold";
+  src: url("../../../assets/fonts/Almarai/Almarai-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Almarai-Regular";
+  src: url("../../../assets/fonts/Almarai/Almarai-Regular.ttf");
+}
+@font-face {
+  font-family: "Almarai-Bold";
+  src: url("../../../assets/fonts/Almarai/Almarai-Bold.ttf");
+}
+.searchArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.searchArea input {
+  width: 100%;
+  padding: 12px 25px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-image: url("../../../assets/icons/searchIcon.png");
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}

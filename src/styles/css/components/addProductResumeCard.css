@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Ralewai-Regular";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Ralewai-medium";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: "Ralewai-semibold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Ralewai-bold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: "Almarai-ExtraBold";
+  src: url("../../../assets/fonts/Almarai/Almarai-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Almarai-Regular";
+  src: url("../../../assets/fonts/Almarai/Almarai-Regular.ttf");
+}
+@font-face {
+  font-family: "Almarai-Bold";
+  src: url("../../../assets/fonts/Almarai/Almarai-Bold.ttf");
+}
+.resumeCard-container {
+  background-color: #33CC33;
+  border-radius: 15px;
+  height: 83px;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.resumeCard-header {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.resumeCard-header p {
+  width: 200px;
+  padding-left: 10px;
+  font-family: "Ralewai-semibold";
+  font-size: 1.8rem;
+  background-color: #E1E1E1;
+  border-radius: 15px;
+}
+.resumeCard-header .resumeCard-header_comboButton {
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+  background-image: url("../../../assets/icons/addProduct-AddComboButton.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.resumeCard-header .resumeCard-header_deleteButton {
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+  background-image: url("../../../assets/icons/addProduct-DeleteButton.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.options-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 40px;
+}
+
+.options-quatityContainer {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: auto;
+  margin-left: 5px;
+}
+.options-quatityContainer .minusButton {
+  margin: auto 0;
+  width: 30px;
+  height: 30px;
+  background-image: url("../../../assets/icons/addProducts-MinusButton.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.options-quatityContainer p {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  font-family: "Almarai-Regular";
+  text-align: center;
+}
+.options-quatityContainer .plusButton {
+  margin: auto 0;
+  width: 30px;
+  height: 30px;
+  background-image: url("../../../assets/icons/plusButton.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.options-specificationsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  margin-left: 8px;
+  width: 150px;
+  height: 40px;
+  margin-top: 8px;
+  padding-top: 5px;
+  border-radius: 15px;
+}
+.options-specificationsContainer .options-specifications_Special {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../../assets/icons/addProduct-SpecialRequirementIcon.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.options-specificationsContainer .options-specifications_Additions {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../../assets/icons/addProduct-AdditionIcon.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.options-specificationsContainer .options-specifications_Restrictions {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../../assets/icons/addProduct-SubtractionIcon.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.options-specificationsContainer .options-specifications_Comments {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../../assets/icons/addProduct-CommentIcon.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

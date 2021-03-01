@@ -1,0 +1,116 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+main{
+  @include mainStyle;
+}
+
+.payOrderTitle{  
+  @include title-style('../../../assets/icons/payOrderTitleIcon.png', 2.7rem, 40px, 6px);
+}
+
+.orderHighlights{
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  font-size: 1.7rem;
+  font-family: $text-font;
+  & .orderName{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    & h4{
+      margin-left: 10px;
+      padding-top: 3px;
+      font-family: $text-font3;
+    }
+  }
+  & .orderMode{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    & h4{
+      margin-left: 10px;
+      padding-top: 3px;
+      font-family: $text-font3;
+    }
+  }
+}
+
+.resumeOrderTable{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  & .tableHeader{
+    margin-bottom: 5px;
+  }
+  & span{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.paymentArea{
+  height: auto;
+  width: 100%;  
+  & .chargeServiceMode{
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    & h3{
+      font-family: $text-font;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    @include radioButtonStyle;
+  }
+}
+
+.totalPriceArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 2rem;
+  & .description{
+    font-family: $text-font2;
+  }
+  & .quantity{
+    margin-left: 30px;
+    font-family: $bold-numbers;
+  }
+}
+
+.paymentMethods {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  & h3{
+    font-size: 2rem;
+    font-family: $text-font;
+    margin-bottom: 10px;
+  }
+  & .checkboxContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
+    margin-bottom: 4px;
+    & input{
+      height: 20px;
+      width: 20px;
+      margin-right: 10px;
+    }
+    & label{
+      font-size: 1.7rem;
+      font-family: $text-font4;
+    }
+  }
+}
+
+.paymentConfirmationZone{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 20px;
+}

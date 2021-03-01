@@ -1,0 +1,35 @@
+@import "../utilities/variables";
+
+.buttonHome{
+  display: flex;
+  flex-direction: row;
+  height: 95px;
+  width: 87.5%;
+  min-width: $min-size-ButtonHome;
+  max-width: $max-size-ButtonHome;
+  margin: 0 auto;
+  margin-top: 7px;
+  background: linear-gradient( #021013, #053942);
+  border-radius: 15px; 
+  border: none;
+  text-decoration: none;
+  & span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: solid 2px $blue-button;
+    border-radius: 100%;
+    margin: auto 0;
+    margin-left: 13px;
+  }
+  & h2{    
+    margin: auto 0;
+    margin-left: 15px;
+    font-size: 2rem;
+    color: white;
+    font-family: $text-font2;
+  }
+}

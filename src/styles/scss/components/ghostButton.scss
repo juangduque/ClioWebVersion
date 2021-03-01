@@ -1,0 +1,20 @@
+@import '../utilities/variables';
+
+.ghostButton{
+  height: 53px;
+  width: 210px;
+  margin-top: 8px;
+  padding-top: 12px;
+  text-align: center;
+  background-color:white;
+  border: solid 3px $blue-button;
+  color: $blue-button;
+  border-radius: $ButtonRadius;
+  font-family: $ghostButtonFont;
+  font-size: 2rem;
+  text-decoration: none;
+  &:hover{
+    background-color: $blue-button;
+    color: white;
+  }
+}

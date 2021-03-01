@@ -1,0 +1,20 @@
+@import '../utilities/variables';
+
+.searchArea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & input{
+    width: 100%;
+    padding: 12px 25px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-image: url('../../../assets/icons/searchIcon.png');
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    }
+}

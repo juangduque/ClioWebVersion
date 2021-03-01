@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Ralewai-Regular";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Ralewai-medium";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: "Ralewai-semibold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Ralewai-bold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: "Almarai-ExtraBold";
+  src: url("../../../assets/fonts/Almarai/Almarai-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Almarai-Regular";
+  src: url("../../../assets/fonts/Almarai/Almarai-Regular.ttf");
+}
+@font-face {
+  font-family: "Almarai-Bold";
+  src: url("../../../assets/fonts/Almarai/Almarai-Bold.ttf");
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 87.5%;
+  margin: 0 auto;
+  margin-top: 20px;
+  min-width: 280px;
+  max-width: 800px;
+}
+
+.payOrderTitle {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+.payOrderTitle span {
+  background-image: url("../../../assets/icons/payOrderTitleIcon.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.payOrderTitle h1 {
+  padding-top: 6px;
+  font-size: 2.7rem;
+  font-family: "Ralewai-bold";
+  color: #096371;
+  letter-spacing: -0.05rem;
+}
+
+.orderHighlights {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  font-size: 1.7rem;
+  font-family: "Ralewai-semibold";
+}
+.orderHighlights .orderName {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.orderHighlights .orderName h4 {
+  margin-left: 10px;
+  padding-top: 3px;
+  font-family: "Ralewai-medium";
+}
+.orderHighlights .orderMode {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.orderHighlights .orderMode h4 {
+  margin-left: 10px;
+  padding-top: 3px;
+  font-family: "Ralewai-medium";
+}
+
+.resumeOrderTable {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.resumeOrderTable .tableHeader {
+  margin-bottom: 5px;
+}
+.resumeOrderTable span {
+  display: flex;
+  justify-content: center;
+}
+
+.paymentArea {
+  height: auto;
+  width: 100%;
+}
+.paymentArea .chargeServiceMode {
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.paymentArea .chargeServiceMode h3 {
+  font-family: "Ralewai-semibold";
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.paymentArea .chargeServiceMode input {
+  height: 23px;
+  width: 23px;
+  margin-right: 10px;
+}
+.paymentArea .chargeServiceMode label {
+  position: absolute;
+  font-size: 1.7rem;
+  font-family: "Ralewai-Regular";
+}
+
+.totalPriceArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 2rem;
+}
+.totalPriceArea .description {
+  font-family: "Ralewai-bold";
+}
+.totalPriceArea .quantity {
+  margin-left: 30px;
+  font-family: "Almarai-Bold";
+}
+
+.paymentMethods {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.paymentMethods h3 {
+  font-size: 2rem;
+  font-family: "Ralewai-semibold";
+  margin-bottom: 10px;
+}
+.paymentMethods .checkboxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: auto;
+  width: 100%;
+  margin-bottom: 4px;
+}
+.paymentMethods .checkboxContainer input {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.paymentMethods .checkboxContainer label {
+  font-size: 1.7rem;
+  font-family: "Ralewai-Regular";
+}
+
+.paymentConfirmationZone {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 20px;
+}

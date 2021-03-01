@@ -1,0 +1,45 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+main{
+  @include mainStyle;
+}
+
+.MakeOrderTitle{
+  @include title-style("../../../assets/icons/MakeOrder-Icon.png", 3.6rem, 35px, 0px);
+}
+
+.consumptionSelection{
+  @include radioButtonStyle;
+}
+
+.buttonsOptionZone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  & select{
+    position: relative;
+    height: 53px;
+    width: 210px;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: $text-font;
+    border-radius: $ButtonRadius;
+    background-color: #097D4C;
+    cursor: pointer;
+    &:hover{
+      background-color: #075333;
+    }
+  }
+  & option{
+    background-color: white;
+  }
+}
+.confirmationZone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}

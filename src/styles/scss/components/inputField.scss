@@ -1,0 +1,58 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+.inputField{
+  position: relative;
+  width: 100%;
+  font-size: 1.6rem;
+  height: 50px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  & input{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+    &:focus + .label-name .content-name,
+    &:valid + .label-name .content-name{
+      transform: translateY(-150%);
+      font-size: 1.4rem;
+      color: $text-fieldInput;
+      // ------------ font family here
+    }
+    &:focus + .label-name::after,
+    &:valid + .label-name::after{
+      transform: translateX(0%);
+    }
+  }
+  & label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    font-family: $text-font;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+    &::after{
+      content: "";
+      position: absolute;
+      left: 0px;
+      bottom: -1px;
+      height: 100%;
+      width: 100%;
+      font-family: $text-font;
+      border-bottom: 3px solid $text-fieldInput;
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+    }
+  }
+}
+
+.content-name{
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}

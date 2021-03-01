@@ -1,0 +1,67 @@
+
+// COLORS
+$header-color: #1D9F69;
+$blue-button: #45D2E8;
+$accept-button:#C2FB3C;
+$decline-button:#FD2222;
+$mainTitleColor: #096371;
+$SectionBorderColor:  #053740;
+$SectionBackground: #EDEDED;
+$bg-productItem: #33CC33;
+$bg-activeOrderCard: #c4c4c4;
+$text-fieldInput: #246248;
+
+
+
+// FONTS
+@font-face{
+  font-family: "Ralewai-Regular";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Regular.ttf");
+}
+@font-face{
+  font-family: "Ralewai-medium";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Light.ttf");
+}
+@font-face{
+  font-family: "Ralewai-semibold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+@font-face{
+  font-family: "Ralewai-bold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Bold.ttf");
+}
+
+@font-face{
+  font-family: "Almarai-ExtraBold";
+  src: url("../../../assets/fonts/Almarai/Almarai-ExtraBold.ttf");
+}
+@font-face{
+  font-family: "Almarai-Regular";
+  src: url("../../../assets/fonts/Almarai/Almarai-Regular.ttf");
+}
+@font-face{
+  font-family: "Almarai-Bold";
+  src: url("../../../assets/fonts/Almarai/Almarai-Bold.ttf");
+}
+
+$text-font: 'Ralewai-semibold';
+$text-font2: 'Ralewai-bold';
+$text-font3: 'Ralewai-medium';
+$text-font4: 'Ralewai-Regular';
+$ghostButtonFont: 'Almarai-ExtraBold';
+$bold-numbers: 'Almarai-Bold';
+$numbers: 'Almarai-Regular';
+
+
+// COMPONENTES SIZE
+$min-size-ButtonHome: 280px;
+$max-size-ButtonHome: 500px;
+$min-size-SectionContainer: 280px;
+$max-size-SectionContainer: 800px;
+$min-size-main-section: 280px;
+$max-size-main-section: 800px;
+
+
+// BORDER RADIUS
+$SectionContainerRadius: 15px;
+$ButtonRadius: 15px;

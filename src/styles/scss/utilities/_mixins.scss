@@ -1,0 +1,70 @@
+@mixin mainStyle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 87.5%;
+  margin: 0 auto;
+  margin-top: 20px;
+  min-width: $min-size-main-section;
+  max-width: $max-size-main-section;
+}
+
+@mixin title-style($backgroundImg, $font-size, $icon-size, $top-padding){
+  position: relative;
+  display: flex;
+  flex-direction: row; 
+  margin-bottom: 5px; 
+  & span{
+    background-image: url($backgroundImg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: $icon-size;
+    height: $icon-size;
+    margin-right: 10px;
+  }
+  & h1{
+    padding-top: $top-padding;
+    font-size: $font-size;
+    font-family: $text-font2;
+    color: $mainTitleColor;
+    letter-spacing: -0.05rem;
+  }
+}
+
+@mixin iconStyle($urlIcon, $iconSize){
+  width: $iconSize;
+  height: $iconSize;
+  background-image: url($urlIcon);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin radioButtonStyle{
+  & input{
+    height: 23px;
+    width: 23px;
+    margin-right: 10px;
+  }
+  & label{
+    position: absolute;
+    font-size: 1.7rem;
+    font-family: $text-font4;
+  }
+}
+
+@mixin illustrationStyle($urlImg){
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  & span{
+    width: 200px;
+    height: 160px;
+    background-image: url($urlImg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

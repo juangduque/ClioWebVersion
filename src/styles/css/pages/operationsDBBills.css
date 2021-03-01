@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Ralewai-Regular";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Ralewai-medium";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: "Ralewai-semibold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Ralewai-bold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: "Almarai-ExtraBold";
+  src: url("../../../assets/fonts/Almarai/Almarai-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Almarai-Regular";
+  src: url("../../../assets/fonts/Almarai/Almarai-Regular.ttf");
+}
+@font-face {
+  font-family: "Almarai-Bold";
+  src: url("../../../assets/fonts/Almarai/Almarai-Bold.ttf");
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 87.5%;
+  margin: 0 auto;
+  margin-top: 20px;
+  min-width: 280px;
+  max-width: 800px;
+}
+
+.operationsBillsTitle {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+.operationsBillsTitle span {
+  background-image: url("../../../assets/icons/DBBillsIcon.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.operationsBillsTitle h1 {
+  padding-top: 0px;
+  font-size: 4rem;
+  font-family: "Ralewai-bold";
+  color: #096371;
+  letter-spacing: -0.05rem;
+}
+
+.infoButton {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../../assets/icons/infoButton.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.operationsDBBills {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.operationsDBBills span {
+  width: 200px;
+  height: 160px;
+  background-image: url("../../../assets/imgs/operationsDBBills.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

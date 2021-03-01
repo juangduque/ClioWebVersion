@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Ralewai-Regular";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Ralewai-medium";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: "Ralewai-semibold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Ralewai-bold";
+  src: url("../../../assets/fonts/Raleway/static/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: "Almarai-ExtraBold";
+  src: url("../../../assets/fonts/Almarai/Almarai-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Almarai-Regular";
+  src: url("../../../assets/fonts/Almarai/Almarai-Regular.ttf");
+}
+@font-face {
+  font-family: "Almarai-Bold";
+  src: url("../../../assets/fonts/Almarai/Almarai-Bold.ttf");
+}
+.inputField {
+  position: relative;
+  width: 100%;
+  font-size: 1.6rem;
+  height: 50px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.inputField input {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+}
+.inputField input:focus + .label-name .content-name, .inputField input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 1.4rem;
+  color: #246248;
+}
+.inputField input:focus + .label-name::after, .inputField input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+.inputField label {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  font-family: "Ralewai-semibold";
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+.inputField label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  font-family: "Ralewai-semibold";
+  border-bottom: 3px solid #246248;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
