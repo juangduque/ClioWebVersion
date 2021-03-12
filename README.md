@@ -55,6 +55,8 @@ Then, make specifications like quantity, additions, special requirements and spe
 
 ### Collect order's view
 
+The user can see the total amount to pay by the costumer and other details.
+
 ![Captura de pantalla de 2021-03-12 12-23-21](https://user-images.githubusercontent.com/43974127/110976907-7be15a80-832f-11eb-8b4d-eff9de1fc1e4.png)
 
 ## License
