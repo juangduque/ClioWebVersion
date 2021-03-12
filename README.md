@@ -35,18 +35,24 @@ This application is designed by "Mobile first" methodology and is totally respon
 - Administration: Settings of the application.
 
 ### Main menu
+
 ![ClioMainMenu](https://user-images.githubusercontent.com/43974127/110976366-cca48380-832e-11eb-90b0-ce8d95da2adc.png)
 
-### Active orders's view![Captura de pantalla de 2021-03-12 12-23-44](https://user-images.githubusercontent.com/43974127/110976553-04abc680-832f-11eb-8397-e5690ab1a3b9.png)
+### Active orders's view
+
+![Captura de pantalla de 2021-03-12 12-23-44](https://user-images.githubusercontent.com/43974127/110976553-04abc680-832f-11eb-8397-e5690ab1a3b9.png)
 
 ### Make order's view
 The user can select the product touching it:
+
 ![Captura de pantalla de 2021-03-12 12-23-02](https://user-images.githubusercontent.com/43974127/110976490-efcf3300-832e-11eb-843a-099983df6e18.png)
+
 Then, make specifications like quantity, additions, special requirements and specify ingredients that don't want:
 
 ![Captura de pantalla de 2021-03-12 12-24-00](https://user-images.githubusercontent.com/43974127/110976805-60764f80-832f-11eb-9c49-e1ed4cfb4b90.png)
 
 ### Collect order's view
+
 ![Captura de pantalla de 2021-03-12 12-23-21](https://user-images.githubusercontent.com/43974127/110976907-7be15a80-832f-11eb-8b4d-eff9de1fc1e4.png)
 
 ## License
