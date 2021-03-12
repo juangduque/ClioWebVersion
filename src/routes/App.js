@@ -12,18 +12,13 @@ import DBCostumerConsult from '../pages/DBCostumerConsult.jsx';
 import DBCostumerEntry from '../pages/DBCostumerEntry.jsx';
 import Record from '../pages/Record.jsx';
 
-import Prueba from '../components/modals/Prueba.jsx';
-
-
 import Layout from '../components/Layout.jsx';
 
 const App = () => (
   <BrowserRouter>
     <Layout>
       <Switch>
-      <Route exact path="/" component={Prueba} />
-
-        {/* <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/hacer-pedido" component={MakeOrder} />
         <Route exact path="/agregar-productos" component={AddProducts} />
         <Route exact path="/pedidos-activos" component={ActiveOrders} />
@@ -33,7 +28,7 @@ const App = () => (
         <Route exact path="/ConsultarBD/facturas" component={OperationsDBBills} />
         <Route exact path="/ConsultarBD/clientes/consultar" component={DBCostumerConsult} />
         <Route exact path="/ConsultarBD/clientes/ingresar" component={DBCostumerEntry} />
-        <Route exact path="/Historial" component={Record} /> */}
+        <Route exact path="/Historial" component={Record} /> 
       </Switch>
     </Layout>
   </BrowserRouter>
